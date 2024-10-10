@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
     <title>NOVATECH</title>
     <style>
         * {
@@ -11,9 +12,70 @@
             margin: 0;
             font-family: Poppins;
         }
+        body {
+            height: 100vh;     
+            background-image: url("globe.jpg");
+            background-size: cover;
+            background-position: -14%;
+            overflow-y: auto;
+            background-attachment: fixed;
+        } 
     </style>
 </head>
-<body>
-    <h1>Nova Tech</h1>
+<body class="md:bg-center lg:bg-center">
+    <header class="p-8 text-gray-100">
+        <h1 class="text-right text-2xl">Nova Tech</h1>
+        <p class="text-right">Technologies</p>
+    </header>
+    <h2 class="px-8 text-gray-100 text-2xl font-medium">Advert! <br> Senior Software Engineer Needed</h2>
+
+    <div class="p-8 text-gray-100">
+        <h3 class="text-lg pb-3">Requirements</h3>
+        <ul class="list-disc pl-4">
+            <li class="py-1">5 years experience</li>
+            <li class="py-1">Proficient in Python, Java, Cpp and familiar with Javascript</li>
+            <li class="py-1">Bachelor’s degree in Computer Science, Software Engineering, or a related field (or equivalent experience</li>
+            <li class="py-1">Expertise in cybersecurity best practices, including secure coding, encryption, and vulnerability assessments.</li>
+        </ul>
+    </div>
+
+    <div class="p-8 pt-0 text-gray-100">
+        <h3 class="text-lg pb-3">Responsibilities</h3>
+        <ul class="list-disc pl-4 *:my-4">
+            <li class="py-1">Lead the design, development, and implementation of high-quality, secure software applications.</li>
+            <li class="py-1">Collaborate with product managers, UX designers, and other engineers to create innovative and scalable solutions.</li>
+            <li class="py-1">Ensure code quality, maintainability, and best practices through code reviews, automated testing, and continuous integration.</li>
+            <li class="py-1">Mentor and guide junior engineers, fostering a culture of continuous improvement and knowledge sharing.</li>
+        </ul>
+    </div>
+
+    <h2 class="px-8 text-gray-100 text-2xl font-medium">Our Values</h2>
+    <main class="text-gray-100 p-8 flex flex-wrap gap-4">
+
+        <div class="w-[20em] rounded p-3 border">
+            <h3 class="text-lg pb-3">Collaborative Partnerships</h3>
+            <p class="text-[.95em]">
+                We believe that strong, long-term relationships with vendors, customers, and community members are key to mutual success. We strive for transparency, trust, and open communication in all our collaborations.
+            </p>
+        </div>
+
+        <div class="w-[20em] rounded p-3 border">
+            <h3 class="text-lg pb-3">Customer Centric Innovation</h3>
+            <p class="text-[.95em]">
+                Our customers are at the heart of everything we do. We continuously seek to innovate and improve our services to meet their evolving needs and exceed expectations, while fostering trust through our reliability.
+            </p>
+        </div>
+
+        <div class="w-[20em] rounded p-3 border">
+            <h3 class="text-lg pb-3">Security First, Always</h3>
+            <p class="text-[.95em]">
+                Security is our top priority in every stage of software development. We are committed to safeguarding the privacy and data of our customers, partners, and employees by integrating the highest security standards in all of our processes.
+            </p>
+        </div>
+    </main>
+    <footer class="p-8 text-white"> 
+        <hr>
+        <p class="pt-4">&copy; 2024 NovaTech</p>
+    </footer>
 </body>
 </html>
