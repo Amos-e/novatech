@@ -643,4 +643,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:bg-center {
     background-position: center;
   }
+
+  .lg\:bg-right {
+    background-position: right;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
 }

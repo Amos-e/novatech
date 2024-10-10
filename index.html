@@ -20,12 +20,20 @@
             overflow-y: auto;
             background-attachment: fixed;
         } 
+        @media (min-width: 1024px) {
+            body {
+                background-image: url("copy.jpg");
+            }
+            header > p {
+                text-align: left;
+            }
+        }
     </style>
 </head>
-<body class="md:bg-center lg:bg-center">
+<body class="md:bg-center ">
     <header class="p-8 text-gray-100">
-        <h1 class="text-right text-2xl">Nova Tech</h1>
-        <p class="text-right">Technologies</p>
+        <h1 class="text-right lg:text-left text-2xl">Nova Tech</h1>
+        <p class="text-right lg:text-left">Technologies</p>
     </header>
     <h2 class="px-8 text-gray-100 text-2xl font-medium">Advert! <br> Senior Software Engineer Needed</h2>
 
